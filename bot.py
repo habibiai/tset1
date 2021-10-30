@@ -26,7 +26,7 @@ def report():
     send_message(my_message)
 
 
-schedule.every(5).seconds.do(report)
+schedule.every(5).mintes.do(report)
 
 while True:
     schedule.run_pending()
